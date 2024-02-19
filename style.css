@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color:palevioletred;
+}
+
+#question {
+  height: 50px;
+}
+
+#picture {
+  width: 20%;
+  height: 20%;
+}
+
+#enter {
+  height: 50px;
+  font-weight: bold;
+}
+
+#input {
+  height: 50px;
+  font-weight: bold;
+}
+
+#input::placeholder {
+  font-size: 15px;
+}
