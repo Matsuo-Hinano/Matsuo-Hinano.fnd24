@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TOEIC頑張ろ～!</title>
+</head>
+<body onload="makeQuestions()">
+  <h1 id="title">Question</h1>
+  <h3 id="sentence">次の日本語を英語に訳しましょう！</h3>
+  <div id="question"></div>
+  <div id="answer">
+    <input type="text" id="input" size="20" placeholder="単語を入力してください"/>
+    <input type="button" id="enter" value="回答する" />
+  </div>
+  <p id="resultMessage"></p>
+  <img src="english_book_girl.png" id="picture">
+  <script src="script.js"></script>
+</body>
+</html>
